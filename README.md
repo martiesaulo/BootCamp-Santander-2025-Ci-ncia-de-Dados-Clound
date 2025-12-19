@@ -1,8 +1,36 @@
-☁️ Relatório de Implementação de Serviços AWS
+# ☁️ Desafio de Projeto – Implementação de Serviços AWS
 
-Bootcamp Santander 2025 – Cloud Computing
+**Bootcamp Santander 2025 | Cloud Computing (DIO)**
 
-📅 Informações Gerais
+---
+
+## 📌 Entendendo o Desafio
+
+Este projeto faz parte do **Bootcamp Santander 2025**, promovido pela **DIO (Digital Innovation One)**, com foco em **Computação em Nuvem utilizando a AWS**.
+
+O desafio consiste em conceber e documentar a implementação de serviços da AWS em um cenário empresarial fictício, simulando desafios reais do mercado. O principal objetivo é demonstrar como a computação em nuvem pode ser utilizada para **redução de custos**, **melhoria da eficiência operacional** e **modernização da infraestrutura de TI**.
+
+---
+
+## 🎯 Objetivo do Projeto
+
+* Aplicar conceitos fundamentais de Cloud Computing
+* Selecionar serviços AWS adequados a um cenário empresarial
+* Demonstrar estratégias de redução de custos em nuvem
+* Desenvolver documentação técnica clara e organizada
+* Criar um projeto para portfólio no GitHub
+
+---
+
+## 🏢 Contexto do Projeto
+
+* **Empresa fictícia:** Abstergo Industries
+* **Responsável pelo projeto:** Saulo Martie
+* **Cenário:** A empresa busca migrar parte de sua infraestrutura para a nuvem, visando maior controle de custos, escalabilidade e eficiência operacional.
+
+---
+
+## **📅 Informações Gerais**
 
 Data de início: 19/12/2025
 
@@ -10,119 +38,102 @@ Empresa: Abstergo Industries (empresa fictícia)
 
 Responsável pelo projeto: Saulo Martie
 
-📌 Introdução
+## 🛠️ Serviços AWS Utilizados
 
-Este repositório apresenta o relatório de implementação de serviços AWS desenvolvido como parte do Bootcamp Santander 2025, com foco em Cloud Computing.
+O projeto foi estruturado em **três etapas**, cada uma utilizando um serviço específico da AWS.
 
-O objetivo do projeto foi selecionar e aplicar três serviços da AWS capazes de promover redução imediata de custos, melhoria de eficiência operacional e maior escalabilidade, simulando um cenário real de migração e otimização em nuvem para uma empresa fictícia.
+### 🔹 Etapa 1 – Amazon EC2
 
-Este projeto também tem como finalidade aprofundar o entendimento prático sobre a AWS, indo além da teoria e explorando casos de uso comuns no mercado.
+* **Serviço:** Amazon EC2 (Elastic Compute Cloud)
+* **Foco:** Hospedagem de aplicações
+* **Caso de uso:**
 
-🎯 Objetivo do Projeto
+  * Substituição de servidores físicos
+  * Pagamento conforme o uso
+  * Facilidade de escalabilidade
 
-Aplicar conceitos de computação em nuvem na AWS
+---
 
-Selecionar serviços adequados para redução de custos
+### 🔹 Etapa 2 – Amazon S3
 
-Simular decisões reais de arquitetura em cloud
+* **Serviço:** Amazon S3 (Simple Storage Service)
+* **Foco:** Armazenamento de dados
+* **Caso de uso:**
 
-Desenvolver pensamento crítico sobre eficiência, escalabilidade e custo
+  * Armazenamento seguro e durável
+  * Redução de custos com infraestrutura local
+  * Integração com outros serviços AWS
 
-Criar um material documentado e reprodutível para portfólio
+---
 
-🏗️ Descrição do Projeto
+### 🔹 Etapa 3 – AWS Cost Explorer
 
-A implementação foi organizada em três etapas, cada uma correspondente a um serviço AWS, com foco em um problema específico da empresa.
+* **Serviço:** AWS Cost Explorer
+* **Foco:** Monitoramento e controle de custos
+* **Caso de uso:**
 
-🔹 Etapa 1 – Amazon EC2
+  * Visualização dos gastos com AWS
+  * Identificação de oportunidades de economia
+  * Apoio à tomada de decisão financeira
 
-Serviço: Amazon EC2 (Elastic Compute Cloud)
+---
 
-Foco: Otimização de infraestrutura computacional
+## 📈 Benefícios Esperados
 
-Caso de uso:
+* Redução de custos operacionais
+* Melhor controle sobre os gastos em nuvem
+* Infraestrutura mais flexível e escalável
+* Maior eficiência nos processos de TI
 
-A empresa utilizava servidores físicos com baixa flexibilidade e alto custo de manutenção. A migração para instâncias EC2 permite:
+---
 
-Escalar recursos conforme a demanda
+## 🧠 Aprendizados
 
-Pagar apenas pelo que é utilizado
+Com a realização deste projeto, foi possível praticar:
 
-Reduzir custos com hardware físico
+* Conceitos básicos de computação em nuvem
+* Funcionamento de serviços essenciais da AWS
+* Importância do controle financeiro em ambientes cloud
+* Documentação técnica de projetos
+* Simulação de cenários reais do mercado
 
-Melhorar a disponibilidade dos serviços
+---
 
-🔹 Etapa 2 – Amazon S3
+## 📂 Estrutura do Repositório
 
-Serviço: Amazon S3 (Simple Storage Service)
+```
+📁 Desafio-AWS-Bootcamp-Santander
+│
+├── 📄 README.md
+├── 📄 Relatório de Implementação AWS
+```
 
-Foco: Armazenamento seguro e de baixo custo
+---
 
-Caso de uso:
+## ▶️ Como Utilizar
 
-Arquivos, relatórios e dados históricos passaram a ser armazenados no Amazon S3, possibilitando:
+1. Acesse este repositório no GitHub
+2. Leia o relatório de implementação
+3. Analise os serviços AWS selecionados e seus casos de uso
 
-Armazenamento altamente durável
+> ⚠️ Este projeto é **conceitual e educacional**, não sendo necessária uma conta ativa na AWS para sua compreensão.
 
-Custos menores em comparação a servidores locais
+---
 
-Fácil integração com outros serviços AWS
+## ✍️ Conclusão
 
-Backup e versionamento de dados
+Este desafio permitiu aplicar, de forma prática, os conceitos aprendidos sobre computação em nuvem, demonstrando como a AWS pode ser utilizada para **otimizar custos e melhorar a eficiência operacional** de uma empresa.
 
-🔹 Etapa 3 – AWS Cost Explorer
+O projeto reforça a importância da computação em nuvem como uma solução moderna, escalável e estratégica para organizações.
 
-Serviço: AWS Cost Explorer
+---
 
-Foco: Controle e análise de custos
+## 👤 Autor
 
-Caso de uso:
+**Saulo Martie**
+Bootcamp Santander 2025 – Ciência de Dados
+DIO – Digital Innovation One
 
-Para garantir a sustentabilidade financeira da infraestrutura em nuvem, o AWS Cost Explorer foi utilizado para:
+---
 
-Monitorar gastos por serviço
-
-Identificar desperdícios
-
-Apoiar decisões de otimização de recursos
-
-Aumentar a previsibilidade de custos
-
-📊 Resultados Esperados
-
-Com a implementação desses serviços, espera-se:
-
-Redução de custos operacionais
-
-Maior controle financeiro sobre o uso da nuvem
-
-Infraestrutura mais flexível e escalável
-
-Aumento da eficiência dos processos internos
-
-Base sólida para futuras expansões em cloud
-
-🧠 Aprendizados
-
-Este projeto proporcionou aprendizado prático em:
-
-Conceitos fundamentais de Cloud Computing
-
-Arquitetura básica na AWS
-
-Tomada de decisão baseada em custo-benefício
-
-Documentação técnica de projetos em nuvem
-
-Simulação de cenários reais do mercado de tecnologia
-
-✍️ Conclusão
-
-A adoção dos serviços AWS apresentados neste projeto demonstra como a computação em nuvem pode ser utilizada de forma estratégica para reduzir custos, aumentar eficiência e modernizar a infraestrutura de uma empresa.
-
-Recomenda-se a continuidade do uso dos serviços implementados, bem como a exploração de novas soluções em nuvem que possam otimizar ainda mais os processos organizacionais.
-
-👤 Autor
-Saulo Martie
-Bootcamp Santander 2025 – Cloud Computing
-
+Bons estudos! 🚀
